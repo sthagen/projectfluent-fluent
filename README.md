@@ -37,7 +37,7 @@ validate your work:
 
 This repository contains the reference implementation of the parser. Other implementations exist which should be preferred for use in production and in tooling.
 
-  - The JavaScript implementation at [`fluent.js`](https://github.com/projectfluent/fluent.js), including the [React bindings](https://github.com/projectfluent/fluent.js/tree/master/fluent-react).
+  - The JavaScript implementation at [`fluent.js`](https://github.com/projectfluent/fluent.js), including the [React bindings](https://github.com/projectfluent/fluent.js/tree/main/fluent-react).
   - The Python implementation at [`python-fluent`](https://github.com/projectfluent/python-fluent).
   - The Rust implementation at [`fluent-rs`](https://github.com/projectfluent/fluent-rs).
 

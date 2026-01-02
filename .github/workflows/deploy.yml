@@ -5,7 +5,7 @@ on:
   # only for the default branch.
   push:
     branches:
-      - master
+      - main
     paths:
       - '.github/workflows/deploy.yml'
       - 'book.toml'
@@ -20,7 +20,7 @@ jobs:
       MDBOOK_VERSION: v0.4.36
     steps:
       - name: Clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install mdbook
         run: |
           mkdir installed-bins
