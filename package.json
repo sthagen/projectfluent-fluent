@@ -28,11 +28,8 @@
     "bugs": {
         "url": "https://github.com/projectfluent/fluent/issues"
     },
-    "engines": {
-        "node": ">=12.0.0"
-    },
     "devDependencies": {
-        "@fluent/bundle": "^0.18.0",
+        "@fluent/bundle": "^0.19.1",
         "@fluent/syntax": "^0.19.0",
         "babylon": "^6.18.0",
         "cli-color": "^2.0.0",
